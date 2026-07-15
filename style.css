@@ -46,8 +46,18 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10rem;
 }
 
 .hero-txt {
     text-align: center;
+    color: white;
+}
+
+.hero-txt h1 {
+    font-size: 5rem;
+}
+
+.hero-txt p {
+    color: #888888;
 }
