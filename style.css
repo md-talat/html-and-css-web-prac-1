@@ -61,3 +61,24 @@ nav {
 .hero-txt p {
     color: #888888;
 }
+
+.hero-btn-box {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.hero-btn-box a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem 3rem;
+    border: 2px solid cyan;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.hero-btn-box a:hover {
+    background-color: cyan;
+    color: black;
+}
